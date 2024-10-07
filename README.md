@@ -1,3 +1,8 @@
+<html>
+    <head>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
+</head>
 <img src="gahyunsan241007.jpg" usemap="#image-map">
 
 <map name="image-map">
@@ -17,3 +22,4 @@
     <area target="_blank" alt="9호" title="9호" href="naver.com" coords="274,2142,508,2124,523,2454,228,2498" shape="poly">
     <area target="" alt="11호" title="11호" href="naver.com" coords="511,2128,753,2109,767,2373,734,2405,653,2432,572,2442,524,2451" shape="poly">
 </map>
+<html>
