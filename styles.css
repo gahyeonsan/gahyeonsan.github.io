@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
 }
-
+img {max-width: 100%}
 /* 모달 스타일 */
 .modal {
     display: none;
