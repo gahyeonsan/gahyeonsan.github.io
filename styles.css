@@ -1,6 +1,7 @@
-img {max-width: 100%}
-
-
-img {
-    zoom: 0.3;
+img {max-width: 100%
+  display: block;
+  margin: 0 auto;
+  width: 1695px;
+  height: 2732px;
+  zoom: 0.3;
 }
