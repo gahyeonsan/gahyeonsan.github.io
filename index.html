@@ -3,10 +3,9 @@
 <head>
 <!-- Required meta tags -->
 <meta charset="utf-8">
-	<meta name="HandheldFriendly" content="True">
-	<meta name="MobileOptimized" content="320">
-	<meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://mattstow.com/js/ios-orientationchange-fix.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="http://mattstow.com/experiment/responsive-image-maps/jquery.rwdImageMaps.min.js"></script>
 <script src="jquery.rwdImageMaps.min.js"></script>
 <link rel="stylesheet" href="styles.css">
 <title>가현산 프리미엄 타운하우스</title>
@@ -31,12 +30,10 @@
     <area target="_blank" alt="9호" title="9호" href="https://naver.com" coords="274,2142,508,2124,523,2454,228,2498" shape="poly">
     <area target="" alt="11호" title="11호" href="https://naver.com" coords="511,2128,753,2109,767,2373,734,2405,653,2432,572,2442,524,2451" shape="poly">
 </map>
-
-<script>
-$(document).ready(function(e) {
-	$('img[usemap]').rwdImageMaps();
-});
-</script>
-
+    <script>
+      $(document).ready(function(e) {
+	    $('img[usemap]').rwdImageMaps();
+      });
+    </script>
 </body>
 <html>
