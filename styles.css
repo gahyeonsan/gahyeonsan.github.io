@@ -4,3 +4,9 @@ img {
   width: 1000px;
   height: 1652px;
 }
+
+.btn-primary {
+    color: #fff;
+    background-color: #fff;
+    border-color: #fff;
+}
