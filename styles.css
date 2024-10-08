@@ -5,19 +5,6 @@ img {
   height: 1652px;
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #fff;
-    border-color: #fff;
-}
-
-.btn-close {
-    color: #fff;
-    background-color: #555;
-    border-color: #555;
-}
-
-
 .a:hover {
         stroke: red;
         stroke-width: 0.5px;
