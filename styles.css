@@ -16,3 +16,16 @@ img {
     background-color: #555;
     border-color: #555;
 }
+
+
+svg a:hover path {
+  stroke-width: 1;
+  stroke: black;
+  fill: #555;
+}
+.minnesota {
+  fill: #ccc;
+}
+.wisconson {
+  fill: #999;
+}
