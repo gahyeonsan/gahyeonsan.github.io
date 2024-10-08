@@ -18,14 +18,25 @@ img {
 }
 
 
-svg a:hover path {
-  stroke-width: 1;
-  stroke: black;
-  fill: #555;
+/* As SVG does not provide a default visual style for links,
+   it's considered best practice to add some */
+
+@namespace svg url(http://www.w3.org/2000/svg);
+/* Necessary to select only SVG <a> elements, and not also HTML's.
+   See warning below */
+
+svg|a:link,
+svg|a:visited {
+  cursor: pointer;
 }
-.minnesota {
-  fill: #ccc;
+
+svg|a text,
+text svg|a {
+  fill: blue; /* Even for text, SVG uses fill over color */
+  text-decoration: underline;
 }
-.wisconson {
-  fill: #999;
+
+svg|a:hover,
+svg|a:active {
+  outline: dotted 1px blue;
 }
