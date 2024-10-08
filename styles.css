@@ -18,10 +18,8 @@ img {
 }
 
 
-      path {
-        fill: #1da1f2;
-      }
-      path:hover {
+
+path:hover {
         fill: purple;
         stroke: red;
         stroke-width: 0.5px;
