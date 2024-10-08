@@ -7,7 +7,7 @@ img {
 
 a:hover {
         fill: purple;
-        stroke: yellow;
+        stroke: pink;
         stroke-width: 1px;
         transition: fill 0.4s;
       }
