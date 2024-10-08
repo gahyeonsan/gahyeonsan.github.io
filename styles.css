@@ -18,6 +18,16 @@ img {
 }
 
 
+      path {
+        fill: #1da1f2;
+      }
+      path:hover {
+        fill: purple;
+        stroke: red;
+        stroke-width: 3px;
+        transition: fill 0.4s;
+      }
+
 /* As SVG does not provide a default visual style for links,
    it's considered best practice to add some */
 
