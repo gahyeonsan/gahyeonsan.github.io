@@ -10,3 +10,9 @@ img {
     background-color: #fff;
     border-color: #fff;
 }
+
+.btn-close {
+    color: #fff;
+    background-color: #555;
+    border-color: #555;
+}
