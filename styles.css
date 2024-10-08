@@ -18,7 +18,7 @@ img {
 }
 
 
-a:hover {
+.a:hover {
         stroke: red;
         stroke-width: 0.5px;
         transition: fill 0.4s;
