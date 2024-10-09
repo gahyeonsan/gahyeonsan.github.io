@@ -69,34 +69,3 @@
   font-size: 14px;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
-
-
-/* Top 공통 CSS */
-    .back-to-top {
-      display: none; /* 초기에는 숨겨둠 */
-      position: fixed; /* 화면에 고정 */
-      font-size: 14px; /* 글자 크기 14px */
-      background-color: #000;
-     color: #fff; /
-      padding: 10px 15px; /* 중앙점으로부터의 도형 길이(사각형 크기) */
-      border-radius: 5px; /* 굴절률 정의 원 or 사각형 만들기 위해 */
-      text-decoration: none;
-      z-index: 9999; /* 속성 요소들의 수직 위치, 파워포인트 도형 제일 뒤로, 제일 앞으로 개념으로 생각하면 됨 */
-    }
-     /* 모바일 화면에 대한 CSS */
-    @media only screen and (max-width: 480px) {
-      .back-to-top {
-        bottom: auto;
-        right: auto;
-        top: calc(100vh - 80px);
-        left: calc(100vw - 50px);
-      }
-    }
-    /* 데스크톱 화면에 대한 CSS */
-    @media only screen and (min-width: 481px) {
-      .back-to-top {
-        bottom: 20px;
-        right: 20px;
-      }
-    }
