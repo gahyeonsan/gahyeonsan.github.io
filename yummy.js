@@ -7,7 +7,7 @@ function sortTable() {
 
   //2. convert to array
   let rows = Array.from(rowsCollection)
-    .slice(1); //skip the header row
+   // .slice(1); //skip the header row
 
   //3. shuffle
   shuffleArray(rows);
