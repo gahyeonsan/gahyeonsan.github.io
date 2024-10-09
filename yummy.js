@@ -32,21 +32,3 @@ function shuffleArray(array) {
     array[j] = temp;
   }
 }
-
-
-const backToTopButton = document.querySelector(".back-to-top");
-
-    // 스크롤 이벤트 등록
-window.addEventListener("scroll", function () {
-      // 현재 스크롤 위치가 200 이상인 경우에만 버튼 보이기
-if (window.pageYOffset > 200) {
-backToTopButton.style.display = "block";
-} else {
-backToTopButton.style.display = "none";
-}
-});
-
-    // 위로가기 버튼 클릭 이벤트 등록
-backToTopButton.addEventListener("click", function () {
-window.scrollTo({ top: 0, behavior: "smooth" });
-});
