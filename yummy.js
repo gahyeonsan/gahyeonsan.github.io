@@ -7,7 +7,7 @@ function sortTable() {
 
   //2. convert to array
   let rows = Array.from(rowsCollection)
-   // .slice(1); //skip the header row
+   // .slice(1); //첫번째 타이틀 행 제외 시키고 두번째 부터 적용
 
   //3. shuffle
   shuffleArray(rows);
