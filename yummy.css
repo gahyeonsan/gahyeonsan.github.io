@@ -48,12 +48,11 @@
   border: none;
   border-radius: 8px;
   color: white;
-  padding: 10px 24px;
+  padding: 8px 24px;
   margin-top: 20px;
-  float: center;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
