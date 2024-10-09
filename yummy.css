@@ -46,6 +46,7 @@
 .my-btn {
   background-color: #04AA6D; /* Green */
   border: none;
+  border-radius: 8px;
   color: white;
   padding: 10px 15px;
   text-align: center;
