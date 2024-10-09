@@ -5,4 +5,3 @@ $('#content-table tr').each(function(){
   	$("#Random").append(`<tr>${$(this).html()}</tr>`);
   }
 });
-          
