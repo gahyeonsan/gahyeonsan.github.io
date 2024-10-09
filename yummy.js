@@ -1,7 +1,7 @@
 // https://www.reddit.com/r/webdev/comments/k0tjax/is_there_to_make_an_html_table_load_with_rows_in/
 
 // Create references to table and table rows
-let tbody = document.querySelector("#randomized-table");
+let tbody = document.querySelector("#content-table");
 let rows = tbody.querySelectorAll("tr");
 
 // Create a helper function to shuffle an array or iterable
