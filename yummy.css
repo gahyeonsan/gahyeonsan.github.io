@@ -42,8 +42,6 @@
   color: #009879;
 }
 
-
-
 .my-btn {
   background-color: #e7e7e7; color: black; /* Gray */
   border: none;
@@ -57,3 +55,32 @@
   font-size: 14px;
   box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+5    /* 공통 CSS */
+6    .back-to-top {
+7      display: none; /* 초기에는 숨겨둠 */
+8      position: fixed; /* 화면에 고정 */
+9      font-size: 14px; /* 글자 크기 14px */
+10      background-color: #000;
+11     color: #fff; /
+12      padding: 10px 15px; /* 중앙점으로부터의 도형 길이(사각형 크기) */
+13      border-radius: 5px; /* 굴절률 정의 원 or 사각형 만들기 위해 */
+14      text-decoration: none;
+15      z-index: 9999; /* 속성 요소들의 수직 위치, 파워포인트 도형 제일 뒤로, 제일 앞으로 개념으로 생각하면 됨 */
+16    }
+17     /* 모바일 화면에 대한 CSS */
+18    @media only screen and (max-width: 480px) {
+19      .back-to-top {
+20        bottom: auto;
+21        right: auto;
+22        top: calc(100vh - 80px);
+23        left: calc(100vw - 50px);
+24      }
+25    }
+26    /* 데스크톱 화면에 대한 CSS */
+27    @media only screen and (min-width: 481px) {
+28      .back-to-top {
+29        bottom: 20px;
+30        right: 20px;
+31      }
+32    }
