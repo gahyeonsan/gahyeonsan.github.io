@@ -43,7 +43,7 @@
 }
 
 .my-btn {
-  background-color: #e7e7e7; color: black; /* Gray */
+  background-color: #e7e7e7; /* Gray */
   border: none;
   border-radius: 8px;
   color: 4f4f4f;
@@ -57,7 +57,7 @@
 }
 
 .bottom-btn {
-  background-color: #e7e7e7; color: black; /* Gray */
+  background-color: #e7e7e7; /* Gray */
   border: none;
   border-radius: 8px;
   color: #5e5e5e;
