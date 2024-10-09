@@ -1,36 +1,9 @@
-   
-(function($){
-  $.fn.shuffle = function() {
-    return this.each(function(){
-      var items = $(this).children();
-      return (items.length)
-        ? $(this).html($.shuffle(items))
-        : this;
-    });
-  }
+var
+  trs = document.querySelectorAll('tr'),
+  i = trs.length,
+  tr;
 
-  $.shuffle = function(arr) {
-    for(
-      var j, x, i = arr.length; i;
-      j = parseInt(Math.random() * i),
-      x = arr[--i], arr[i] = arr[j], arr[j] = x
-    );
-    return arr;
-  }
-    //Shuffle all rows, don't tpuch first column
-    //Requires: Shuffle
- $.fn.shuffleRows = function(){
-     return this.each(function(){
-        var main = $(/table/i.test(this.tagName) ? this.tBodies[0] : this);
-        var firstElem = [], counter=0;
-        main.children().each(function(){
-             firstElem.push(this.firstChild);
-         });
-        main.shuffle();
-        main.children().each(function(){
-           this.insertBefore(firstElem[counter++], this.firstChild); 
-        });
-     });
+for (; i > 1; i -= 1) {
+  tr = trs.item(Math.floor(Math.random() * i));
+  tr.parentNode.appendChild(tr);
 }
-     })(jQuery)
-     $("table").shuffleRows()
